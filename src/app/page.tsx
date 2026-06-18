@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="relative min-h-screen overflow-hidden flex flex-col items-center pt-32 pb-20 px-6">
+      <section className="relative md:min-h-screen min-h-[65vh] overflow-hidden flex flex-col items-center pt-32 pb-20 px-6">
         
         {/* Top Background Shapes Container */}
         <div className="absolute md:top-0 top-5  translate-y-[10%] md:-translate-y-[40%] left-0 right-0 flex justify-between items-start w-full opacity-80 pointer-events-none -z-10">
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto text-center md:pt-32 pt-16 pb-20">
+        <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto text-center md:pt-32 pt-16 md:pb-20 pb-5">
           
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-[#E6F8F6] text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-8">
